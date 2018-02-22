@@ -1,0 +1,395 @@
+ 1  exit
+    2  git init
+    3  git add .
+    4  git status
+    5  git commit -m "Esimeneyleslaadimine"
+    6  git remote add origin https://github.com/Viiskorda/prog1
+    7  git pull origin master
+    8  touch README.md
+    9  git pull origin master
+   10  git commit -m "Teine kord"
+   11  git add .
+   12  git commit -m "Teine kord"
+   13  git status
+   14  ls
+   15  nano README.md 
+   16  cat README.md 
+   17  git status
+   18  git commit -a -m "Kolmas komment"
+   19  git status
+   20  git push 
+   21  git push --set-upstream origin master https://github.com/Viiskorda/prog1
+   22  git status
+   23  git push
+   24  git remote -v
+   25  git push origin master
+   26  git pull origin master
+   27  git pull origin master --allow-unrelated-histories
+   28  ls
+   29  git status
+   30  cd public_html/rif17/
+   31  ls
+   32  git'init
+   33  git init
+   34  git remote add origin https://github.com/Viiskorda/prog1
+   35  git pull origin master
+   36  ls
+   37  nano README.md 
+   38  git add .
+   39  git commit -m "Kommentaar"
+   40  git status
+   41  git push origin master
+   42  history
+
+
+
+
+
+visual code:
+ 1  ping tera.kolledz
+    2  exit
+    3  ping tera.hk.tlu.ee
+    4  ip config
+    5  top
+    6  git
+    7  git --version
+    8  cd
+    9  ls
+   10  git help -a
+   11  git help -g
+   12  ls
+   13  cd Documents/
+   14  ls
+   15  cd Jaan\ Koppe/
+   16  ls
+   17  ls
+   18  cd Valikpraktika/
+   19  ls
+   20  cd hktvKart/
+   21  ls
+   22  git init
+   23  ls
+   24  git status
+   25  git add .
+   26  git commit -a -m "init"
+   27  git push
+   28  git remote add jaankoppe
+   29  git remote add jaankoppe https://github.com/jaankoppe/hktvKart.git
+   30  git commit -a -m "init"
+   31  git push
+   32  git push jaankoppe
+   33  git pull
+   34  git pull jaankoppe
+   35  git pull jaankoppe -m
+   36  git push jaankoppe
+   37  git pull -a -m jaankoppe
+   38  git commit -a -m "init"
+   39  git push
+   40  git push jaankoppe
+   41  git config --global push.default current
+   42  git push https://github.com/jaankoppe/hktvKart.git
+   43  git push https://github.com/jaankoppe/hktvKart.git master:root
+   44  git push https://github.com/jaankoppe/hktvKart.git master:master
+   45  cd ..
+   46  cd ..
+   47  cd Valikpraktika/
+   48  ls
+   49  ls
+   50  cd hktvKart/
+   51  git init
+   52  git branch -D root
+   53  git status
+   54  git help
+   55  git global
+   56  git --global
+   57  git remote add jaankoppe
+   58  git remote add jaankoppe https://github.com/jaankoppe/hktvKart.git
+   59  git commit -a -m "init"
+   60  git add .
+   61  git commit -a -m "init"
+   62  git push jaankoppe
+   63  git push jaankoppe master:test
+   64  git pull
+   65  git pull master:test
+   66  git remote pull master:test
+   67  git pull
+   68  git pull test
+   69  git pull master:test
+   70  git pull jaankoppe
+   71  git pull jaankoppe master:test
+   72  ls
+   73  cd Documents/
+   74  ls
+   75  cd Jaan\ Koppe/
+   76  cd Valikpraktika/
+   77  cd hktvKart/
+   78  ls
+   79  git status
+   80  git commit -a -m "test"
+   81  git pull jaankoppe master:test
+   82  ls
+   83  cd Documents/
+   84  cd Jaan\ Koppe/
+   85  cd V
+   86  cd Valikpraktika/
+   87  cd hktvKart/
+   88  ls
+   89  git status
+   90  git status master:test
+   91  git pull
+   92  git pull master:test
+   93  git pull jaankoppe master:test
+   94  ls
+   95  cd Documents/
+   96  cd Jaan\ Koppe/Valikpraktika/hktvKart/
+   97  git push jaankoppe master:test
+   98  git commit -a -m "test"
+   99  git push master:test
+  100  git push jaankoppe master:test
+  101  git pull
+  102  git pull jaankoppe master:test
+  103  git add .
+  104  git commit -a -m "test"
+  105  git config --global user.name jaankoppe
+  106  git commit --amend --reset-author
+  107  git commit -a -m "test"
+  108  git commit -a -m "test" master:test
+  109  git commit -m "test" master:test
+  110  git status
+  111  git status master:test
+  112  git pull jaankoppe master:test
+  113  git push jaankoppe master:test
+  114  git pull
+  115  git pull jaankoppe
+  116  git pull jaankoppe master:test
+  117  git pull jaankoppe master:master
+  118  git pull jaankoppe master:test
+  119  git add .
+  120  git commit -m "test"
+  121  git push
+  122  git push jaankoppe
+  123  git pull
+  124  git pull master:master
+  125  git pull master:test
+  126  git pull jaankoppe
+  127  git pull jaankoppe master:master
+  128  git pull jaankoppe master:test
+  129  git add .
+  130  git status
+  131  ls
+  132  cd Documents/Jaan\ Koppe/Valikpraktika/hktvKart/
+  133  ls
+  134  git add .
+  135  git status
+  136  git commit -a "readme update"
+  137  git commit  "readme update" master:test
+  138  git commit  "readme update"
+  139  git commit -m  "readme update"
+  140  git push jaankoppe master:test
+  141  git pull
+  142  git pull jaankoppe
+  143  git pull jaankoppe master:master
+  144  git pull jaankoppe master:test
+  145  git push jaankoppe master:test
+  146  git push --help
+  147  git push --all
+  148  git push jaankoppe -a
+  149  git push -a jaankoppe
+  150  git push --all jaankoppe
+  151  ping www.google.com
+  152  ping www.github.com
+  153  /Users/stud/Documents/Jaan\ Koppe/Valikpraktika/gui_test
+  154  cd /Users/stud/Documents/Jaan\ Koppe/Valikpraktika/gui_test
+  155  ls
+  156  git init
+  157  git clone https://github.com/bernardgeyer/ofxhGui.git
+  158  git clone https://github.com/bernardgeyer/ofxhGui.git
+  159  git clone https://github.com/bernardgeyer/ofxhGui.git
+  160  git clone https://github.com/bernardgeyer/ofxhUtils.git
+  161  /Users/stud/Documents/OpenFrameworks/of_v0.9.0_osx_release/apps/myApps/hktv git init
+  162  git add .
+  163  cd /Users/stud/Documents/OpenFrameworks/of_v0.9.0_osx_release/apps/myApps/hktv
+  164  git init
+  165  git add .
+  166  git status
+  167  git commit -m "initial commit"
+  168  git push
+  169  git remote add jaankdesign https://github.com/jaankoppe/hktv.git
+  170  git push jaankdesign
+  171  git pull
+  172  git pull https://github.com/jaankoppe/hktv.git
+  173  cd
+  174  cd /Users/stud/Documents/OpenFrameworks/of_v0.9.0_osx_release/apps/myApps/hktv
+  175  git status
+  176  git commit -m "readme"
+  177  git pull
+  178  git pull jaankdesign
+  179  git pull jaankdesign master:master
+  180  git pull jaankdesign master:test
+  181  cd /Users/stud/Documents/OpenFrameworks/of_v0.9.0_osx_release/apps/myApps/hktv
+  182  git status
+  183  git add .
+  184  git status
+  185  git commit -m "test"
+  186  git remote add jaankdesign
+  187  git remote add jaankdesign https://github.com/jaankoppe/hktv.git
+  188  git add .
+  189  git status
+  190  git push
+  191  git push jaankdesign
+  192  git pull jaankdesign
+  193  git pull jaankdesign master:master
+  194  git pull jaankdesign master:test
+  195  glxinfo
+  196  glxinfo | version
+  197  exit
+  198  cd /Users/stud/Documents/OpenFrameworks/of_v0.9.0_osx_release/addons
+  199  git clone https://github.com/braitsch/ofxDatGui.git
+  200  exit
+  201  cd /Users/stud/Documents/OpenFrameworks/of_v0.9.0_osx_release/apps/myApps/hktvGraphics/src
+  202  sftp jaan.koppe@tigu.hk.tlu.ee
+  203  rm /Users/stud/.ssh/known_hosts
+  204  sftp jaan.koppe@tigu.hk.tlu.ee
+  205  cd /Users/stud/Documents/Jaan\ Koppe/Valikpraktika/version/0402
+  206  sftp
+  207  sftp jaan@koppe.ee
+  208  ls
+  209  cd /Users/stud/Documents/Jaan\ Koppe/Valikpraktika/version/0402
+  210  ls
+  211  sftp jaan.koppe@tigu.hk.tlu.ee
+  212  cd /Users/stud/Documents/OpenFrameworks/of_v0.9.0_osx_release/apps/myApps/hktvGraphics/src
+  213  ls
+  214  sftp
+  215  sftp jaan.koppe@tigu.hk.tlu.ee
+  216  exit
+  217  cd /Users/stud/Documents/OpenFrameworks/of_v0.9.0_osx_release/apps/myApps/hktvGraphics/src
+  218  cd /Users/stud/Documents/OpenFrameworks/of_v0.9.0_osx_release/apps/myApps/hktvGraphics/src
+  219  sftp jaan.koppe@tigu.hk.tlu.ee
+  220  df -h
+  221  cd /Volumes
+  222  cd /public
+  223  cd public
+  224  ls
+  225  whoami
+  226  su haldur
+  227  cd /Users/stud/Documents/OpenFrameworks/of_v0.9.0_osx_release/apps/myApps/hktvGraphics/src
+  228  ls
+  229  sftp
+  230  sftp jaan.koppe@tigu.hk.tlu.ee
+  231  exit
+  232  cd /Users/stud/Documents/OpenFrameworks/of_v0.9.0_osx_release/apps/myApps/hktvGraphics/bin/data/
+  233  ls
+  234  ls
+  235  cd /Users/stud/Documents/OpenFrameworks/of_v0.9.0_osx_release/apps/myApps/hktvGraphics/src
+  236  ls
+  237  sftp
+  238  sftp jaan.koppe@tigu.hk.tlu.ee
+  239  cd /Users/stud/Documents/OpenFrameworks/of_v0.9.0_osx_release/apps/myApps/hktvGraphics/src
+  240  ls
+  241  sftp
+  242  stp jaan.koppe@tigu.hk.tlu.ee
+  243  sftp jaan.koppe@tigu.hk.tlu.ee
+  244  exit
+  245  cd /Users/stud/Documents/OpenFrameworks/of_v0.9.0_osx_release/addons
+  246  ls
+  247  git clone https://github.com/hironishihara/ofxTrueTypeFontUC.git
+  248  ls
+  249  git clone https://github.com/armadillu/ofxFontStash.git
+  250  ls
+  251  cd /Users/stud/Documents/OpenFrameworks/of_v0.9.0_osx_release/apps/myApps/hktvGraphics/src
+  252  ls
+  253  sftp jaan.koppe@tigu.hk.tlu.ee
+  254  xit
+  255  exit
+  256  cd /Users/stud/Documents/OpenFrameworks/of_v0.9.0_osx_release/apps/myApps/hktvGraphics/src
+  257  sftp jaan.koppe@tigu.hk.tlu.ee
+  258  exit
+  259  su haldur
+  260  cd /Users/stud/Documents/OpenFrameworks/of_v0.9.0_osx_release/apps/myApps/hktvGraphics/src
+  261  ls
+  262  sftp jaan.koppe@tigu.hk.tlu.ee
+  263  top
+  264  ls
+  265  sftp jaan.koppe@tigu.hk.tlu.ee
+  266  ssh
+  267  ssh jaan.koppe@tigu.hk.tlu.ee
+  268  top
+  269  top
+  270  cd /Users/stud/Documents/OpenFrameworks/of_v0.9.0_osx_release/apps/myApps/hktvGraphics/src
+  271  sftp
+  272  sftp jaan.koppe@tigu.hk.tlu.ee
+  273  cd /Users/stud/Documents/OpenFrameworks/of_v0.9.0_osx_release/apps/myApps/hktvGraphics/bin
+  274  ./hktvGraphicsDebug.app/
+  275  ./hktvGraphicsDebug.app/Contents/MacOS/hktvGraphicsDebug
+  276  /Users/stud/Documents/OpenFrameworks/of_v0.9.0_osx_release/apps/myApps/hktvGraphics/bin/hktvGraphicsDebug.app/Contents/MacOS/hktvGraphicsDebug ; exit;
+  277  iconset -c icns /Users/stud/Desktop/hktv.iconset
+  278  iconutil -c icns /Users/stud/Desktop/hktv.iconset
+  279  iconutil -c icns "/Users/stud/Desktop/hktv.iconset"
+  280  ls
+  281  cd Desktop/
+  282  nano Icons.src
+  283  source Icons.src
+  284  cd /Users/stud/Documents/OpenFrameworks/of_v0.9.0_osx_release/apps/myApps/hktvGraphics/src
+  285  ls
+  286  sftp jaan.koppe@tigu.hk.tlu.ee
+  287  top
+  288  cd /Users/stud/Documents/OpenFrameworks/of_v0.9.0_osx_release/apps/myApps
+  289  ls
+  290  mkdir 2302
+  291  ls 2302
+  292  ls
+  293  cd 2302
+  294  ls
+  295  sftp
+  296  sftp jaan.koppe@tigu.hk.tlu.ee
+  297  exit
+  298  su haldur
+  299  ssh
+  300  ssh koppe.ee
+  301  ssh node@koppe.ee
+  302  sftp node@koppe.ee
+  303  sftp node@koppe.ee
+  304  sftp
+  305  sftp node@46.101.32.90
+  306  ssh 46.101.32.90
+  307  ssh node@46.101.32.90
+  308  love
+  309  love /Users/stud/Desktop/untitled\ folder
+  310  love
+  311  love /Users/stud/Desktop/untitled\ folder
+  312  love /Users/stud/Desktop/untitled\ folder
+  313  ssh node@www.koppe.ee
+  314  ssh node@koppe.ee
+  315  ssh node@46.101.32.90
+  316  ssh
+  317  ssh node@koppe.ee
+  318  ssh jaan@koppe.ee
+  319  ssh node@www.koppe.ee
+  320  ssh reitblum@tigu.hk.tlu.ee
+  321  ssh liisalvova@tigu.hk.tlu.ee
+  322  ssh liisalvova@tigu.hk.tlu.ee
+  323  /Users/stud/Desktop/generic_camera16x9_2.jpg. ; exit;
+  324  /Users/stud/Desktop/generic_camera16x9_2.jpg. ; exit;
+  325  /Users/stud/Desktop/generic_camera16x9_2.jpg. ; exit;
+  326  /Users/stud/Desktop/generic_camera16x9_2.jpg. ; exit;
+  327  phonegap'
+  328  /Users/stud/Desktop/generic_camera16x9_2.jpg. ; exit;
+  329  ssh liisa.lvova@tigu.hk.tlu.ee
+  330  mkdir
+  331  cd desktop
+  332  cd pg
+  333  phonegap create helloApp
+  334  npm install -g phonegap@latest
+  335  npm install -g phonegap@latest
+  336  git
+  337  scp
+  338  scp -r ../prog1 annemarii.hunt@tigu.hk.tlu.ee:/annemarii.hunt/public_html/rif17
+  339  scp -r ../prog1 annemarii.hunt@tigu.hk.tlu.ee:/annemarii.hunt/public_html/rif17
+  340  scp -r ../prog1 annemarii.hunt@tigu.hk.tlu.ee:/annemarii.hunt/public_html/rif17
+  341  scp -r ../prog1 annemarii.hunt@tigu.hk.tlu.ee:/annemarii.hunt/public_html/rif17
+  342  scp -r ../prog1 annemarii.hunt@tigu.hk.tlu.ee:/annemarii.hunt/public_html/rif17
+  343  scp -r ../prog1 annemarii.hunt@tigu.hk.tlu.ee:/annemarii.hunt
+  344  scp -r ../prog1 annemarii.hunt@tigu.hk.tlu.ee:/annemarii.hunt/rif17
+  345  scp -r ../prog1 annemarii.hunt@tigu.hk.tlu.ee:/annemarii.hunt/public_html/rif17
+  346  scp -r ../prog1 annemarii.hunt@tigu.hk.tlu.ee:/home/annemarii.hunt/public_html/rif17
+  347  history
